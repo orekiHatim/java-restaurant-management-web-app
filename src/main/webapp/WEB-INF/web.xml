@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>TestDynamicWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>VilleController</display-name>
+    <servlet-name>VilleController</servlet-name>
+    <servlet-class>controllers.VilleController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VilleController</servlet-name>
+    <url-pattern>/VilleController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ZoneController</display-name>
+    <servlet-name>ZoneController</servlet-name>
+    <servlet-class>controllers.ZoneController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ZoneController</servlet-name>
+    <url-pattern>/ZoneController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>RegisterController</display-name>
+    <servlet-name>RegisterController</servlet-name>
+    <servlet-class>controllers.RegisterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterController</servlet-name>
+    <url-pattern>/RegisterController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>controllers.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>SerieController</display-name>
+    <servlet-name>SerieController</servlet-name>
+    <servlet-class>controllers.SerieController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SerieController</servlet-name>
+    <url-pattern>/SerieController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>RestaurantController</display-name>
+    <servlet-name>RestaurantController</servlet-name>
+    <servlet-class>controllers.RestaurantController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RestaurantController</servlet-name>
+    <url-pattern>/RestaurantController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>PhotoController</display-name>
+    <servlet-name>PhotoController</servlet-name>
+    <servlet-class>controllers.PhotoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PhotoController</servlet-name>
+    <url-pattern>/PhotoController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>SpecialiteController</display-name>
+    <servlet-name>SpecialiteController</servlet-name>
+    <servlet-class>controllers.SpecialiteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SpecialiteController</servlet-name>
+    <url-pattern>/SpecialiteController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>RestoSpecController</display-name>
+    <servlet-name>RestoSpecController</servlet-name>
+    <servlet-class>controllers.RestoSpecController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RestoSpecController</servlet-name>
+    <url-pattern>/RestoSpecController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ProductController</display-name>
+    <servlet-name>ProductController</servlet-name>
+    <servlet-class>controllers.ProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductController</servlet-name>
+    <url-pattern>/ProductController</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
